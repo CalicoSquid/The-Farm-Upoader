@@ -1,50 +1,36 @@
-# Welcome to your Expo app 👋
+# 📸 Image Upload App (Expo + Firebase)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a cross-platform mobile app built with **Expo (React Native)** and **Firebase**. It allows users to upload images with descriptions, view recent uploads, and organize content across multiple collections.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 📷 **Image Picker & Uploader** using `expo-image-picker`
+- 🔥 **Firebase Integration** (Storage + Firestore)
+- 🗂️ Uploads to multiple collections (e.g., `plants`, `insects`, `animals`)
+- 🕒 Recent uploads feed (combined from all collections)
+- 🧭 Clean navigation using `expo-router` Tabs
+- 🎨 Custom theming with reusable color tokens
+- 🖼️ Live image preview with description and date
+- ✨ Haptic feedback on tab navigation
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📦 Technologies Used
 
-In the output, you'll find options to open the app in a
+- [Expo](https://expo.dev/)
+- [React Native](https://reactnative.dev/)
+- [Firebase (v9+ Modular SDK)](https://firebase.google.com/)
+- [expo-image-picker](https://docs.expo.dev/versions/latest/sdk/imagepicker/)
+- [expo-router](https://expo.github.io/router/)
+- [react-native-paper](https://callstack.github.io/react-native-paper/)
+- [@react-native-picker/picker](https://github.com/react-native-picker/picker)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧪 Running the App
 
-## Get a fresh project
-
-When you're ready, run:
-
+Make sure you have Expo CLI installed:
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+npm install -g expo-cli
