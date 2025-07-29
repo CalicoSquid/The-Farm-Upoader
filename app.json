@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "cloudinary-uploader-app",
+    "name": "Uploader",
     "slug": "cloudinary-uploader-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/splash-icon.png",
+    "icon": "./assets/images/splash2.png",
     "scheme": "cloudinaryuploaderapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,30 +13,48 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/splash-icon.png",
-        "backgroundColor": "#ffffff"
+        "foregroundImage": "./assets/images/splash2.png",
+        "backgroundColor": "#F5E7DA"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.calicosquid.cloudinaryuploaderapp"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/splashy.png"
+    },
+    "splash": {
+      "image": "./assets/images/splash2.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F5E7DA"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/splashy.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
+          "backgroundColor": "#F5E7DA"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "e31182e8-db52-4e43-800a-f9f2206520c5"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/e31182e8-db52-4e43-800a-f9f2206520c5"
     }
   }
 }

@@ -99,6 +99,7 @@ export default function UploadImageScreen() {
       <TextInput
         style={styles.input}
         placeholder="Enter description"
+        placeholderTextColor="#888"
         value={description}
         onChangeText={setDescription}
         multiline
@@ -184,6 +185,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: COLORS.secondary,
     marginBottom: 16,
+    color: "#888",
   },
   image: {
     width: '100%',
